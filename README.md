@@ -34,7 +34,7 @@ Welcome route: http://127.0.0.1:8000/
 
 
 ## Project Structure
-app/
+```app/
 ├── main.py
 ├── models.py
 └── routers/
@@ -46,8 +46,7 @@ app/
 PROJECT_LOG.md
 README.md
 requirements.txt
-
----
+```
 
 ## Future Work
 Add database integration for persistent role/task storage
