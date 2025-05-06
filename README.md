@@ -13,7 +13,6 @@ Originally prototyped during an internship at ByteDance (Fall 2024), later refac
 - Modular structure: `user`, `goal`, `task`, `feedback`
 - RESTful APIs with auto-generated docs at `/docs`
 
----
 
 ## Quick Start
 
@@ -26,18 +25,15 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 uvicorn app.main:app --reload
-
----
-
-## Visit:
-
--API docs: http://127.0.0.1:8000/docs
--Welcome route: http://127.0.0.1:8000/
-
----
-
-## Project Structure
 ```
+
+## Visit
+API docs: http://127.0.0.1:8000/docs
+Welcome route: http://127.0.0.1:8000/
+
+```
+```
+## Project Structure
 app/
 ├── main.py
 ├── models.py
@@ -46,8 +42,9 @@ app/
     ├── goal.py
     ├── task.py
     └── feedback.py
-
-PROJECT_LOG.md
+```
+```
+## PROJECT_LOG.md
 README.md
 requirements.txt
 
