@@ -26,12 +26,12 @@ pip install -r requirements.txt
 
 uvicorn app.main:app --reload
 
+
 Docs available at: http://127.0.0.1:8000/docs
 
 
-
-Project Structure
-app/
+## Project Structure
+```app/
 ├── main.py
 ├── models.py
 └── routers/
@@ -44,8 +44,8 @@ PROJECT_LOG.md
 README.md
 requirements.txt
 
-Future Work
-Add database integration
+## Future Work
+```Add database integration
 
 Save user progress and feedback
 
