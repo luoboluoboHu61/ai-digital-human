@@ -1,7 +1,8 @@
-
 # AI Digital Human Training (Backend)
 
 A modular FastAPI backend for generating personalized training tasks based on user traits and goals.
+
+Originally prototyped during an internship at ByteDance (Fall 2024), later refactored and extended into a modular, showcase-ready system (Spring 2025).
 
 ---
 
@@ -10,7 +11,7 @@ A modular FastAPI backend for generating personalized training tasks based on us
 - Role system with attributes: personality, skills, goals
 - Adaptive task generation based on user profile
 - Modular structure: `user`, `goal`, `task`, `feedback`
-- RESTful APIs with auto docs at `/docs`
+- RESTful APIs with auto-generated docs at `/docs`
 
 ---
 
@@ -26,12 +27,18 @@ pip install -r requirements.txt
 
 uvicorn app.main:app --reload
 
+---
 
-Docs available at: http://127.0.0.1:8000/docs
+## Visit:
 
+-API docs: http://127.0.0.1:8000/docs
+-Welcome route: http://127.0.0.1:8000/
+
+---
 
 ## Project Structure
-```app/
+```
+app/
 ├── main.py
 ├── models.py
 └── routers/
@@ -44,10 +51,13 @@ PROJECT_LOG.md
 README.md
 requirements.txt
 
+---
+
 ## Future Work
-```Add database integration
+Add database integration for persistent role/task storage
 
-Save user progress and feedback
+Store and track user feedback and progress
 
-Build frontend dashboard
+Build frontend dashboard (React/Streamlit)
 
+Deploy to Render / Hugging Face Spaces
