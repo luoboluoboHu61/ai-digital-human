@@ -1,0 +1,16 @@
+# 忽略虚拟环境
+venv/
+
+# 忽略 Python 缓存文件夹
+__pycache__/
+
+# 忽略 Python 编译生成文件
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略本地数据库（如果你用）
+*.sqlite3
+
+# 忽略环境变量文件
+.env
