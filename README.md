@@ -29,10 +29,10 @@ uvicorn app.main:app --reload
 
 ## Visit
 API docs: http://127.0.0.1:8000/docs
+
 Welcome route: http://127.0.0.1:8000/
 
-```
-```
+
 ## Project Structure
 app/
 ├── main.py
@@ -42,9 +42,8 @@ app/
     ├── goal.py
     ├── task.py
     └── feedback.py
-```
-```
-## PROJECT_LOG.md
+
+PROJECT_LOG.md
 README.md
 requirements.txt
 
