@@ -2,7 +2,7 @@
 #def get_feedback():
 #    return {"feedback": "This is the feedback route."}
 
-# app/routers/feedback.py
+# backend/routers/feedback.py
 
 from fastapi import APIRouter
 from app.models import Feedback
