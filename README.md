@@ -1,58 +1,29 @@
-# AI Digital Human Training (Backend)
+# AI Digital Human Bootcamp
 
-A modular FastAPI backend for generating personalized training tasks based on user traits and goals.
+An interactive task & feedback dashboard simulating digital human learning environments.
 
-Originally prototyped during an internship at ByteDance (Fall 2024), later refactored and extended into a modular, showcase-ready system (Spring 2025).
+## 🧠 Features
 
----
+- Role switching (User / Mentor / Admin)
+- Task generation and completion tracker
+- Feedback submission with scoring
+- Achievements and badge system
+- AI-powered daily summary generator
+- Real-time task visualization and statistics
 
-## Features
+## 🚀 Tech Stack
 
-- Role system with attributes: personality, skills, goals
-- Adaptive task generation based on user profile
-- Modular structure: `user`, `goal`, `task`, `feedback`
-- RESTful APIs with auto-generated docs at `/docs`
+- Python + Streamlit
+- Plotly for visualization
+- OpenAI API (for AI summary)
+- JSON for local persistence
 
-
-## Quick Start
+## 📦 How to Run
 
 ```bash
-git clone https://github.com/luoboluoboHu61/ai-digital-human.git
-cd ai-digital-human
-
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-uvicorn app.main:app --reload
+streamlit run app_main_hub_cards.py
 ```
 
-## Visit
-API docs: http://127.0.0.1:8000/docs
+## 🌐 Online Version
 
-Welcome route: http://127.0.0.1:8000/
-
-
-## Project Structure
-```app/
-├── main.py
-├── models.py
-└── routers/
-    ├── user.py
-    ├── goal.py
-    ├── task.py
-    └── feedback.py
-
-PROJECT_LOG.md
-README.md
-requirements.txt
-```
-
-## Future Work
-Add database integration for persistent role/task storage
-
-Store and track user feedback and progress
-
-Build frontend dashboard (React/Streamlit)
-
-Deploy to Render / Hugging Face Spaces
+> To deploy, push this repo to GitHub and link it with [Streamlit Cloud](https://streamlit.io/cloud).
