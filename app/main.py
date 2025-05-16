@@ -1,4 +1,5 @@
-# app/main.py
+# backend/main.py
+
 
 from fastapi import FastAPI
 from app.routers import user, goal, task, feedback
