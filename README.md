@@ -50,9 +50,9 @@ This project is built to showcase hands-on skills in state management, component
 
 ## Run Locally
 
-```bash
+```
+bash
 streamlit run app_main_hub_cards.py
-
 
 ```
 
@@ -64,6 +64,7 @@ streamlit run app_main_hub_cards.py
 ├── backend/                   # FastAPI routing logic (for future)
 ├── .streamlit/config.toml     # Deployment config
 ├── requirements.txt
+
 ```
 
 ```
