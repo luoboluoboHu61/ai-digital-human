@@ -57,6 +57,7 @@ streamlit run app_main_hub_cards.py
 ```
 
 ## Project Structure
+```
 .
 ├── app_main_hub_cards.py      # Main UI script
 ├── feedback_data.json         # Feedback storage
@@ -64,8 +65,6 @@ streamlit run app_main_hub_cards.py
 ├── backend/                   # FastAPI routing logic (for future)
 ├── .streamlit/config.toml     # Deployment config
 ├── requirements.txt
-
-```
 
 ```
 ## Note from the developer
