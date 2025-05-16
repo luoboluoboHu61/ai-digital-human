@@ -1,1 +1,12 @@
-{}
+{
+  "Build AI Avatar": {
+    "desc": "Design and implement an AI character capable of responding to user inputs.",
+    "completed": true,
+    "timestamp": "2025-05-10 14:35:00"
+  },
+  "Generate Personalized Task": {
+    "desc": "Create a task dynamically based on user's role and current progress.",
+    "completed": false,
+    "timestamp": "2025-05-11 09:50:00"
+  }
+}
