@@ -1,4 +1,4 @@
-# app/routers/user.py
+# backend/routers/user.py
 #@router.get("/profile")
 #def get_profile():
 #    return {"user": "test_user", "role": "Buddhist"}
